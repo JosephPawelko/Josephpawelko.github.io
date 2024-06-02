@@ -1,0 +1,184 @@
+body{
+    position: fixed;
+  left: 0;
+  top:20px;
+  width:300px;
+  background-color: cornflowerblue;
+  font-family: 'Courier New', Courier, monospace;
+
+  
+}
+aside{
+    position: fixed;
+  right: 0;
+  top:20px;
+  width:300px;
+  background-color: coral;
+  font-family: 'Courier New', Courier, monospace;
+  visibility: hidden;
+}
+#winnerCircle{
+  position: fixed;
+    right: 70%;
+    left: 30%;
+    top: 10%;
+    width: 100%;
+    
+}
+#winnerCircleText{
+  visibility: "hidden";
+  position: fixed;
+
+    left: 10%;
+    top: 10%;
+ 
+    
+}
+#image0{
+  height: auto; 
+    width: auto; 
+    max-width: 200px; 
+    max-height: 200px;
+}
+#image1{
+  height: auto; 
+    width: auto; 
+    max-width: 200px; 
+    max-height: 200px;
+}
+#image2{
+  height: auto; 
+    width: auto; 
+    max-width: 200px; 
+    max-height: 200px;
+}
+#image3{
+  height: auto; 
+    width: auto; 
+    max-width: 200px; 
+    max-height: 200px;
+}
+#image4{
+  height: auto; 
+    width: auto; 
+    max-width: 200px; 
+    max-height: 200px;
+}
+#image5{
+  height: auto; 
+    width: auto; 
+    max-width: 200px; 
+    max-height: 200px;
+}
+#image6{
+  height: auto; 
+    width: auto; 
+    max-width: 200px; 
+    max-height: 200px;
+}
+#image7{
+  height: auto; 
+    width: auto; 
+    max-width: 200px; 
+    max-height: 200px;
+}
+#image8{
+  height: auto; 
+    width: auto; 
+    max-width: 200px; 
+    max-height: 200px;
+}
+#image9{
+  height: auto; 
+    width: auto; 
+    max-width: 200px; 
+    max-height: 200px;
+}
+#image10{
+  height: auto; 
+    width: auto; 
+    max-width: 200px; 
+    max-height: 200px;
+}
+#image11{
+  height: auto; 
+    width: auto; 
+    max-width: 200px; 
+    max-height: 200px;
+}
+
+#statChoice{
+    position: fixed;
+    right: 50%;
+    left: 50%;
+    top: 20%
+}
+#imageMine{
+  height: auto; 
+    width: auto; 
+    max-width: 600px; 
+    max-height: 600px;
+    position: fixed;
+
+    left: 5%;
+    top: 20%;
+}
+#callouts{
+  position: fixed;
+  right: 60%;
+    left: 40%;
+    top: 80%;
+  background-color: greenyellow;
+  color: greenyellow;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+}
+#calloutsE{
+  position: fixed;
+  right: 40%;
+    left: 60%;
+    top: 80%;
+  background-color: greenyellow;
+  color: greenyellow;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+}
+#graveyard{
+  right: 50%;
+    left: 50%;
+    top: 80%;
+    position: fixed;
+    height: auto; 
+    width: auto; 
+    max-width: 150px; 
+    max-height: 150px;
+}
+#winners{
+  right: 75%;
+    left: 25%;
+    top: 15%;
+    position: fixed;
+}
+#winnersE{
+  right: 25%;
+    left: 75%;
+    top: 15%;
+    position: fixed;
+}
+#deck{
+  right: 75%;
+    left: 25%;
+    top: 10%;
+    position: fixed;
+}
+#deckE{
+  right: 25%;
+    left: 75%;
+    top: 10%;
+    position: fixed;
+}
+#enemyStatus{
+  position: fixed;
+  right:10px;
+  top:100px
+}

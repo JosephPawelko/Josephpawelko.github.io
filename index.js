@@ -44,8 +44,8 @@ function play(){
     document.getElementById("b6").style.visibility = "visible"
 
     for (let i = 0; i < monsters.length; i++) {
-        let numb = Math.random() * 1.3
-        let numb2 = Math.random() * 1.3
+        let numb = Math.random() * 1.4
+        let numb2 = Math.random() * 1.4
         var newStat = monsters[i][1] + (numb - numb2)
        
         newStat = Number(newStat.toFixed(2))
@@ -53,8 +53,8 @@ function play(){
         
     }
     for (let i = 0; i < monsters.length; i++) {
-        let numb = Math.random() * 1.3
-        let numb2 = Math.random() * 1.3
+        let numb = Math.random() * 1.7
+        let numb2 = Math.random() * 1.7
         var newStat = monsters[i][2] + (numb - numb2)
        
         newStat = Number(newStat.toFixed())
@@ -62,8 +62,8 @@ function play(){
         
     }
     for (let i = 0; i < monsters.length; i++) {
-        let numb = Math.random() * 1.3
-        let numb2 = Math.random() * 1.3
+        let numb = Math.random() * 1.9*monsters[i][3]
+        let numb2 = Math.random() * 1.9*monsters[i][3]
         var newStat = monsters[i][3] + (numb - numb2)
        
         newStat = Number(newStat.toFixed())
@@ -71,8 +71,8 @@ function play(){
         
     }
     for (let i = 0; i < monsters.length; i++) {
-        let numb = Math.random() * 1.3
-        let numb2 = Math.random() * 1.3
+        let numb = Math.random() * 3.6*monsters[i][3]
+        let numb2 = Math.random() * 3.6*monsters[i][3]
         var newStat = monsters[i][4] + (numb - numb2)
        
         newStat = Number(newStat.toFixed())
@@ -80,8 +80,8 @@ function play(){
         
     }
     for (let i = 0; i < monsters.length; i++) {
-        let numb = Math.random() * 1.3
-        let numb2 = Math.random() * 1.3
+        let numb = Math.random() * 6.8
+        let numb2 = Math.random() * 6.8
         var newStat = monsters[i][5] + (numb - numb2)
        
         newStat = Number(newStat.toFixed())
@@ -89,8 +89,8 @@ function play(){
         
     }
     for (let i = 0; i < monsters.length; i++) {
-        let numb = Math.random() * 1.3
-        let numb2 = Math.random() * 1.3
+        let numb = Math.random() * 1.3* 1.3* 1.3
+        let numb2 = Math.random() * 1.3* 1.3* 1.3
         var newStat = monsters[i][6] + (numb - numb2)
        
         newStat = Number(newStat.toFixed())
